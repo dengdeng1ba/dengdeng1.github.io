@@ -1,17 +1,68 @@
+/*common css*/
+{
+	box-sizing:border-box;
+}
 body{
 	background:#fafafa;
 	margin:0;
+	font: 14px / 1.7 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+img{
+  boder:none;
+}
+
+a{
+	text-decoration: none;
 }
 
 .header{
-	background:#1b39ab;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	background:#4285F4;
 	height: 70px;
 }
+/*Home.css*/
+.home-wrapper{
+	height: 600px;
+	width: 960px;
+	padding: 30px;
+}
+.header .logo{
+	display:block;
+	height: 70px;
+	width: 70px;
+	border-radius:  50%;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+	background:#00c4cc;
 
-.wrapper{
-	height:700px;
-	width:960px;
-	box-shadow:0 2px 5px rgba(0,0,0,0.4);
-	background:#fff;
-	margin:10px auto ;
+	color:#fff;
+	font-size: 35px;
+	line-height: 70px;
+	text-align: center;
+}
+
+.black{
+	height:20px;
+	width:20px;
+	background-color: black;
+	border-radius:  50%;
+	position:absolute;
+    top:10px;
+    left:10px;
+}
+.post-title{
+	font-weight: normal;
+	color: black;
+	test-align:center;
+	margin:10px 0;
+}
+.header .logo{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+
 }
