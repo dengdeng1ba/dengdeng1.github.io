@@ -17,6 +17,7 @@ a{
 }
 
 .header{
+<<<<<<< HEAD
 	position: fixed;
 	top:0;
 	left:0;
@@ -32,6 +33,9 @@ a{
 }
 .header .logo{
 	display:block;
+=======
+	background:#4285F4;
+>>>>>>> origin/master
 	height: 70px;
 	width: 70px;
 	border-radius:  50%;
@@ -65,4 +69,14 @@ a{
 	height: 60px;
 	border-radius: 50%;
 
+<<<<<<< HEAD
 }
+=======
+.wrapper{
+	height:700px;
+	width:960px;
+	box-shadow:0 2px 5px rgba(0,0,0,0.4);
+	background:#fff;
+	margin:10px auto ;
+}
+>>>>>>> origin/master
