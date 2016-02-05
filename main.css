@@ -17,25 +17,28 @@ a{
 }
 
 .header{
-<<<<<<< HEAD
+
 	position: fixed;
 	top:0;
 	left:0;
 	width: 100%;
 	background:#4285F4;
-	height: 70px;
+	height: 61px;
 }
 /*Home.css*/
 .home-wrapper{
-	height: 600px;
+	
 	width: 960px;
 	padding: 30px;
+	margin: 10px auto;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px;
+    background: rgb(255, 255, 255);
 }
 .header .logo{
 	display:block;
-=======
+
 	background:#4285F4;
->>>>>>> origin/master
+
 	height: 70px;
 	width: 70px;
 	border-radius:  50%;
@@ -60,23 +63,32 @@ a{
 .post-title{
 	font-weight: normal;
 	color: black;
-	test-align:center;
-	margin:10px 0;
+	text-align:center;
+	margin:50px 0;
 }
-.header .logo{
+.home-logo{
 	display: block;
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
+	
+	color:teal;
+    font-size: 35px;
+    text-align: center;
+    line-height: 60px;
 
-<<<<<<< HEAD
+/*颜色样式*/
+background: #ffffff;
+box-shadow: 0 5px 5px rgba(0,0,0,0.1);
 }
-=======
-.wrapper{
-	height:700px;
-	width:960px;
-	box-shadow:0 2px 5px rgba(0,0,0,0.4);
-	background:#fff;
-	margin:10px auto ;
+.home-images{
+	max-width: 100%;
+	display: block;
+	margin: 30px auto;
+	color:#fff;
+	font-size: 35px;
+	line-height: 70px;
+	text-align: center;
+
 }
->>>>>>> origin/master
+
